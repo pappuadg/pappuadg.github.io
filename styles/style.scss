@@ -1,0 +1,196 @@
+#app {
+    $light-grey: #aaaaaa;
+    $off-white: #f1f2f6;
+    $ultra-light-grey: #dddddd;
+    $light-blue: #98C3E4;
+    $ocen-blue: #5578EB;
+    $black: #000000;
+
+    // Bootstrap Nav Tab
+
+    .nav-tabs{
+        border: none;
+        width: 100%;
+        
+        .nav-item{
+            width: 25%;
+        }
+        
+    }
+    .form-control{
+        padding: 0.15rem .75rem;
+    }
+
+    //End Boottrap Tab
+   .notext-wrapper{
+       margin: 5px 0;
+   }
+
+    .bg-light-grey{
+        background-color:   $off-white;
+    }
+    
+    .nav-tabs .nav-link.active{
+        color: #fff;
+        background-color: $ocen-blue;
+        border: 1px solid $ocen-blue;
+    }
+    .nav-tabs .nav-link{
+        
+        text-align: left;
+        border-radius: 0px;
+        color: #7f8c8d;
+        border-left: 1px solid $ultra-light-grey;
+        border-top: 1px solid $ultra-light-grey;
+        border-bottom: 1px solid $ultra-light-grey;
+    }
+    .nav-tabs .nav-link:last-child{
+        border-right: 1px solid $ultra-light-grey;
+    }
+
+    .files-preview{
+        background-color: $off-white;
+        min-height: 90px;
+        border-left: 1px solid #f4f4f4;
+        border-right: 1px solid #f4f4f4;
+        border-top: 1px solid #f4f4f4;
+        border-radius: 4px 4px 0 0;
+        padding: 10px;
+    }
+    .tool-bar{
+        border: 1px solid $off-white;
+        height: 40px;
+    }
+    .tool-bar ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .tool-bar ul li{
+        display: inline-block;
+    }
+    .tool-bar ul li.active a{
+        color: $black;
+    }
+    .tool-bar ul li a{ 
+        color: $light-grey;
+        text-decoration: none;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+        display: block;
+        transition: .4s ease;
+    }
+    .tool-bar ul li:hover a{
+        color: #000;
+    }
+    
+    .sc-submit{
+        background-color: $ocen-blue;
+    }
+
+
+    .line-no-text{
+        margin-bottom: 3px;
+        height: 13px;
+        background: #f4f4f4;
+    }
+    .no-margin{
+        margin: 0px !important;
+    }
+    .heading{
+        overflow: hidden;
+    }
+    .avatar{
+        float: left;
+        margin-right: 5px;
+    }
+    .avatar img{
+        height: 50px;
+        border-radius: 100%;
+    }
+    .user-title{
+        color: #3658A9;
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .posted_at{
+        color: $light-grey;
+        font-size: 14px;
+        text-decoration: none;
+        display: flex;
+
+    }
+    .posted_at i{
+        font-size: 13px;
+        margin: 4px 5px;
+    }
+    .post-image{
+        overflow: hidden;
+
+    }
+    .post-image img{
+        width: 100%;
+    }
+
+    .facebook {
+
+        .social_secton{
+            text-align: center;
+        }
+        .social_icons{
+            color: $light-grey;;
+            text-decoration: none;
+            
+        }
+    }
+    
+    .instagram {
+        .ins_posted_at{
+            color: $light-grey;
+            font-size: 14px;
+            text-decoration: none;
+            display: flex;
+            float: right;
+        }
+        .social_secton{
+            color: $light-grey;
+        }
+        .social_secton a{
+            color: $light-grey;
+            text-decoration: none;
+        }
+        .social_secton a i{
+          font-size: 18px;
+          margin-right: 5px;
+        }
+        .inst_share a i{
+            color: $light-grey;
+            font-size: 20px;
+            float: right;
+        }
+    }
+
+    .twitter {
+        .social_secton{
+            text-align: center;
+        }
+        .social_icons{
+            color: $light-grey;
+            text-decoration: none;
+            
+        }
+        .twetted_at{
+            color: $light-blue;
+            text-decoration: none;
+        }
+        .link-twitter-image{
+            overflow: hidden;
+        }
+        .link-twitter-image img{
+            height: 150px;
+        }
+    }
+
+}
